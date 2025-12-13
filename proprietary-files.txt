@@ -19,6 +19,19 @@ vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# Audio
+vendor/lib/hw/audio.primary.holi.so:vendor/lib/hw/audio.primary.holi-fogos.so;FIX_SONAME
+vendor/lib/libaualgo_azp_wrapper.so
+vendor/lib/libaualgo_foundation.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libmotaudioutils.so
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
+
+# Audio configs
+vendor/etc/ap_gain.bin
+vendor/etc/ap_gain_mmul.bin
+vendor/etc/audio_ext_spkr.conf
+
 # Audio firmware
 vendor/firmware/fs1815.fsm
 

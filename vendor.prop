@@ -1,6 +1,11 @@
 # Audio
 persist.vendor.audio.fluence.voicecomm=true
+persist.vendor.audio.stereo_speaker.spin.enable=true
 persist.vendor.audio.voicecall.speaker.stereo=true
+ro.hardware.audio.primary=holi-fogos
+ro.vendor.audio.crystal_talk_record.max_rate=16000
+ro.vendor.audio.crystal_talk_record.supported=false
+ro.vendor.audio.crystal_talk.supported=true
 
 # Camera
 persist.vendor.camera.physical.num=3
